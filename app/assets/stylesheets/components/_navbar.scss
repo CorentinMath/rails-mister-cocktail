@@ -8,13 +8,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: transparent;
+  transition: 0.5s background-color ease;
 
   h1 {
     font-style: italic;
     font-family: Raleway, sans-serif;
+    color: white;
 
 
   }
+}
+
+.navbar-wagon-white {
+  background-color: white;
 }
 
 /* Logo */

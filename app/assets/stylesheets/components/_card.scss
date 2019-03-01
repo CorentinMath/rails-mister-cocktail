@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   margin-top: 40px;
-
 }
 
 // Smallest device
@@ -45,7 +44,7 @@
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 180px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +54,7 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 10px;
 }
 
 
@@ -96,4 +96,10 @@
   right: 16px;
   top: -20px;
   width: 40px;
+}
+
+.card-image {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
 }
